@@ -4,6 +4,7 @@ pkgs.mkShell {
   nativeBuildInputs = [
     cargo
     cargo-edit
+    git
     libiconv
     openssl
     pkg-config
