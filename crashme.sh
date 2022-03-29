@@ -6,5 +6,5 @@ git checkout src/main.rs
 cargo clean
 i=0
 while cargo run; do
-  sed -i "s/world[0-9]*/$((i++))/" src/main.rs
+  sed -i "s/world[0-9]*/world$((i++))/" src/main.rs
 done
