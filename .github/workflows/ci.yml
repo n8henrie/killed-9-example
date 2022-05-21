@@ -1,0 +1,26 @@
+---
+name: build
+
+on:
+  push:
+    branches-ignore:
+      translations_**
+  pull_request:
+    branches-ignore:
+      translations_**
+
+jobs:
+  build:
+    runs-on: macos-11
+    steps:
+      - run: echo "I ran build!"
+
+  sign:
+    needs: build
+    runs-on: macos-11
+    steps:
+      - name: Sign
+        run: echo "I ran sign!"
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
+        run: echo "I ran release!"
