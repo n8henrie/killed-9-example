@@ -5,10 +5,10 @@ on:
   push:
     branches-ignore:
       translations_**
+    tags:
   pull_request:
     branches-ignore:
       translations_**
-  tags:
 
 jobs:
   build:
