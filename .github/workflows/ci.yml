@@ -4,11 +4,10 @@ name: build
 on:
   push:
     branches-ignore:
-      translations_**
-    tags:
+      'translations_**'
   pull_request:
     branches-ignore:
-      translations_**
+      'translations_**'
 
 jobs:
   build:
