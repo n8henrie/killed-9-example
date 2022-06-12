@@ -1,1 +1,11 @@
 THis will be deleted soon.
+The test continues.
+
+Is it important to do this test?
+Yes.
+
+Why?
+We are at the begin of long journey, good AVR+Rust.
+There is some friction, at least I feel some friction.
+That (possible) friction shouldn't exist,
+it will damage the project we both care about.
