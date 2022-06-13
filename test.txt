@@ -9,3 +9,6 @@ We are at the begin of long journey, good AVR+Rust.
 There is some friction, at least I feel some friction.
 That (possible) friction shouldn't exist,
 it will damage the project we both care about.
+
+What is the short term goal?
+Better understanding of "git commit message" versus "github PR text".
